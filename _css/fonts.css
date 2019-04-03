@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+
+body{
+	font-family: 'Work Sans';
+	font-size: 16px;
+	color: #000000;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Raleway';
+}
+
+h1{
+	font-size:32px;
+}
+
+h2{
+	font-size: 26px;
+}
+
+h3{
+	font-size: 22px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+/*navigatie menu, krijgt als enige link zwarte kleur.*/
+.menu{
+	color:#000000;
+	font-family: 'Raleway';
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.bannertitel{
+	font-size: 45px;
+}
+
+/*Dit is de opmaak voor links*/
+a{
+	font-family: 'Work Sans';
+	color: #00CCFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #AAC116;
+	text-decoration: underline;
+}
+
+a:active{
+	font-family: 'Work Sans';
+	color: #00CCFF;
+	font-weight: bold;
+}
+
+.actualiteit>h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	clear: both;
+}
