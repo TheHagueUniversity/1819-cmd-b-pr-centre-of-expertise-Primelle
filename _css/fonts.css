@@ -5,32 +5,39 @@
 body{
 	font-family: 'Work Sans';
 	font-size: 16px;
-	color: #000000;
+	color: #000000; /*black*/
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4{
 	font-family: 'Raleway';
 }
 
 h1{
 	font-size:32px;
+	color: #223242;
 }
 
 h2{
 	font-size: 26px;
+	color: #223242;
 }
 
 h3{
-	font-size: 22px;
+	font-size: 23px;
+	color: #223242;
+
 }
 
 h4{
 	font-size: 18px;
+	text-transform: uppercase;
+	color:  #AAC116; /*green*/
 }
 
+
 /*navigatie menu, krijgt als enige link zwarte kleur.*/
-.menu{
-	color:#000000;
+nav>ul>li>a{
+	color:#000000; /*black*/
 	font-family: 'Raleway';
 	text-transform: uppercase;
 	font-weight: bold;
@@ -49,7 +56,7 @@ a{
 }
 
 a:hover{
-	color: #AAC116;
+	color: #AAC116; /*Green*/
 	text-decoration: underline;
 }
 
@@ -65,3 +72,19 @@ a:active{
 	display: block;
 	clear: both;
 }
+
+/*Dit is de standaard button opmaak*/
+button{
+	text-transform: uppercase;
+	background-color: #AAC116; /* Green */
+	color:#ffffff;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Work Sans';
+	
+}
+.evenementen>h4{
+	color: #AAC116;
+}
+
